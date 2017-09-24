@@ -11,7 +11,17 @@
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/styles/style.css">
 </head>
-<body>
-    <h1>Gallery of My Life</h1>
+<body ng-app="myApp">
+    <header>
+        <h1>Gallery of My Life</h1>
+    </header>
+    <main ng-controller="PhotoController as PC">
+        <section ng-repeat="photo in PC.photos">
+            <img src="{{photo.image}}">
+            
+        </section>
+        
+    </main>
+    <footer></footer>
 </body>
 </html>

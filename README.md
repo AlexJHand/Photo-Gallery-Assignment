@@ -11,7 +11,7 @@
 
 [X] Connect client-side logic
 
-[ ] Display photos
+[X] Display photos
 
 [ ] Show description
 
