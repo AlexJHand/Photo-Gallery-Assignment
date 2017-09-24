@@ -60,4 +60,11 @@ myApp.controller('PhotoController', function ($http) {
         // Toggle descShow value of photo clicked
         photo.descShow = !photo.descShow;
     } // End displayDesc
+
+    // Function to increase photo likes counter
+    vm.increaseLike = function (photo) {
+        console.log('In increaseLike');
+        // Increase likes on photo by 1
+        photo.likes++;
+    }
 }); // End PhotoController

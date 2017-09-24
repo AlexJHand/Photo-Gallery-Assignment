@@ -1,13 +1,19 @@
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
 img {
-    width: 200px;
-    height: 200px;
-    margin: 30px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .descriptionDiv {
     display: table;
     width: 200px;
-    height: 200px;
+    height: 220px;
     margin: 30px;
     text-align: center;
 }
@@ -15,4 +21,12 @@ img {
 .descriptionText {
     display: table-cell;
     vertical-align: middle;
+}
+
+.likeButton {
+    margin: 10%;
+}
+
+.likesCounter {
+    font-size: 1.5em;
 }

@@ -15,6 +15,6 @@
 
 [X] Show description
 
-[ ] Add 'Like' functionality
+[X] Add 'Like' functionality
 
 [ ] Make it visually appealing

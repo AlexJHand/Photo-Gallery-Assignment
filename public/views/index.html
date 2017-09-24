@@ -21,16 +21,21 @@
         <div class="container">
             <div class="row">
                 <section class="col-md-4" ng-repeat="photo in PC.photos">
-                    <div class="photoDiv" ng-click="PC.displayDesc(photo)">
-                        <img src="{{photo.image}}" ng-show="!photo.descShow">
-                        
-                        <div class="descriptionDiv" ng-show="photo.descShow">
+                    <div class="photoDiv">
+                        <img src="{{photo.image}}" ng-show="!photo.descShow" ng-click="PC.displayDesc(photo)">
+
+                        <div class="descriptionDiv" ng-show="photo.descShow" ng-click="PC.displayDesc(photo)">
                             <div class="descriptionText">{{photo.description}}</div>
                         </div>
-                
+                        <div class="likeButton">
+                            <button type="button" class="btn btn-info btn-lg col-lg-4" ng-click="PC.increaseLike(photo)">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>Like
+                            </button> 
+                            <span class="likesCounter">Likes: {{photo.likes}}</span>
+                        </div>
+                    </div>
+                </section>
             </div>
-            </section>
-        </div>
     </main>
     <footer></footer>
 </body>
