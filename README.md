@@ -17,4 +17,4 @@
 
 [X] Add 'Like' functionality
 
-[ ] Make it visually appealing
+[X] Make it visually appealing

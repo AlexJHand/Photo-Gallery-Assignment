@@ -1,6 +1,21 @@
+body {
+    background-color: lightgrey;
+    font-family: "Bookman", serif;
+}
+
 h1 {
     text-align: center;
     margin: 40px;
+}
+
+.container {
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+.row {
+    margin-top: 30px;
 }
 
 img {
@@ -30,3 +45,4 @@ img {
 .likesCounter {
     font-size: 1.5em;
 }
+
