@@ -7,7 +7,7 @@
 
 [X] Spin up server
 
-[ ] Create routes
+[X] Create routes
 
 [ ] Connect client-side logic
 
