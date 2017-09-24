@@ -9,7 +9,7 @@
 
 [X] Create routes
 
-[ ] Connect client-side logic
+[X] Connect client-side logic
 
 [ ] Display photos
 
