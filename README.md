@@ -13,7 +13,7 @@
 
 [X] Display photos
 
-[ ] Show description
+[X] Show description
 
 [ ] Add 'Like' functionality
 

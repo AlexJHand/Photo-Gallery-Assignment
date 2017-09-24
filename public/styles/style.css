@@ -1,0 +1,18 @@
+img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.descriptionDiv {
+    display: table;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+}
+
+.descriptionText {
+    display: table-cell;
+    vertical-align: middle;
+}

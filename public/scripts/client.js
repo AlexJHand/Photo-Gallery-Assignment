@@ -5,33 +5,39 @@ console.log('In js');
 var photoArray = [
     {
         image: '../images/IMG_4562.JPG',
-        description: 'My father playing with me as a baby.',
-        likes: 0
+        description: 'My dad playing with me as a baby.',
+        likes: 0,
+        descShow: false
     },
     {
         image: '../images/IMG_4558.JPG',
         description: 'My punk rock phase.',
-        likes: 0
+        likes: 0,
+        descShow: false
     },
     {
         image: '../images/IMG_4557.JPG',
         description: 'Playing in a band.',
-        likes: 0
+        likes: 0,
+        descShow: false
     },
     {
         image: '../images/IMG_4559.JPG',
         description: 'My wedding day.',
-        likes: 0
+        likes: 0,
+        descShow: false
     },
     {
         image: '../images/IMG_4563.png',
         description: 'The day my wife and I rescued him from kitty-jail.',
-        likes: 0
+        likes: 0,
+        descShow: false
     },
     {
         image: '../images/IMG_4560.JPG',
         description: 'Working hard at Prime.',
-        likes: 0
+        likes: 0,
+        descShow: false
     }
 ] // End photoArray
 
@@ -48,10 +54,10 @@ myApp.controller('PhotoController', function ($http) {
     vm.photos = photoArray;
     console.log(vm.photos);
 
-    // Function to display photos
-    // vm.displayPhotos() = function () {
-    //     console.log('In displayPhotos');
-        
-
-    // } // End getPhotos
+    // Function to display description
+    vm.displayDesc = function(photo){
+        console.log('In displayPhotos');
+        // Toggle descShow value of photo clicked
+        photo.descShow = !photo.descShow;
+    } // End displayDesc
 }); // End PhotoController
