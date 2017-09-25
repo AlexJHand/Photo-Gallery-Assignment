@@ -22,20 +22,23 @@ img {
     height: 250px;
     display: block;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .descriptionDiv {
     display: table;
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 90%;
+    height: 250px;
+    margin: auto;
     text-align: center;
+    opacity: 75%;
+    background-color: lightgray;
 }
 
 .descriptionText {
     display: table-cell;
     vertical-align: middle;
+    font-size: 2em;
 }
 
 .likeButton {
