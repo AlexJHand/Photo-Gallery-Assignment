@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var indexRouter = require('./routes/index');
 
 // Globals
-var port = 3002;
+var port = process.env.PORT || 3002;
 
 // Middleware
 app.use(express.static('public'));
