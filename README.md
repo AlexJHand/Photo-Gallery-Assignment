@@ -1,20 +1,41 @@
-# Project Checklist
-===================
+# Gallery of My Life
 
-## Base Mode
+The Gallery of My Life is an application that displays significant pictures of my life, as well as a description about them. In addition, users are able to select which photos they "like".
 
-[X] Create file tree
+## Built With
 
-[X] Spin up server
+HTML5, CSS3, AngularJS, NodeJS, Express, and Bootstrap.
 
-[X] Create routes
+## Getting Started
 
-[X] Connect client-side logic
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+Clone these files to your local machine, and make sure to install the required dependencies via Node.js.
 
-[X] Display photos
+- [Node.js](https://nodejs.org/en/)
+- body-parser
+- bootstrap
+- express
+- pg
 
-[X] Show description
+### Installing
 
-[X] Add 'Like' functionality
+After the dependencies are installed, use ```npm start``` to start the server, which will run on port 3002.
 
-[X] Make it visually appealing
+### Completed Features
+
+- [x] Display photos
+- [x] Toggle between photo and description
+- [x] "Like" functionality
+
+### Next Steps
+
+- [ ] Add a database to save likes
+- [ ] Improve styling
+
+## Authors
+
+* Alex Hand
+
+## Acknowledgements
+
+* Thanks to everyone that took these photos.
